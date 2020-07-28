@@ -1,4 +1,4 @@
-# Hartmanwebsite: Show image caption on Hover
+# Warehouse website: Show image caption on Hover
 
 This is the repo of a simple solution I found working on the Hartman website. 
 The problem was how to create a hover state showing the image caption using Divi builder?

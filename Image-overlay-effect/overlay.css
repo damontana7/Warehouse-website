@@ -1,0 +1,39 @@
+/*------------------------------------------------*/
+/*---------[ GQ CUSTOM IMAGE OVERLAYS ]-----------*/
+/*------------------------------------------------*/
+    /* FADE IN TEXT */
+    .gq_overlay_text .custom_overlay {
+        position: relative;}
+    .gq_overlay_text .image {
+        display: block;
+        width: 100%;
+        height: auto;}
+        .gq_overlay_text .overlay {
+            position: absolute;
+            bottom: 14px;
+            left: 0;
+            right: 0;
+            height: 105px;
+            width: 100%;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: #000000;
+            overflow: hidden;
+        }
+    .gq_overlay_text .custom_overlay:hover .overlay {
+        opacity: 1;}
+        .gq_overlay_text .text {
+            color: #fff;
+            font-size: 14px;
+            font-family: 'Roboto',sans-serif;
+            font-weight: 300;
+            line-height: 24px;
+            text-align: center;
+            padding: 0 16px 0 16px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            -ms-transform: translate(-50%,-50%);
+            width: 100%;
+        }

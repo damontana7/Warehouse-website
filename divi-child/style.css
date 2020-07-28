@@ -1,0 +1,105 @@
+/*
+ Theme Name:     Divi Child
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         Elegant Themes
+ Author URI:     https://www.elegantthemes.com
+ Template:       Divi
+ Version:        1.0.0
+*/
+ 
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+#main-footer {
+    display: none;
+}
+.container {
+    width: 100%;
+    max-width: 1920px;
+    margin: auto;
+}
+
+#logo {
+    max-height: 100%;
+}
+
+.et_header_style_left .logo_container {
+    background-color: #96999C;
+}
+
+.et_header_style_left #et-top-navigation nav>ul>li>a, .et_header_style_split #et-top-navigation nav>ul>li>a {
+    color: #ffffff;
+}
+
+#et_top_search {
+    display: none;
+}
+
+#top-menu a {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 19px;
+    padding-right: 12em;
+}
+#logo {
+    margin-left: -4px !important;
+}
+@media (min-width: 981px) {
+.et_header_style_left .et-fixed-header #et-top-navigation, .et_header_style_split .et-fixed-header #et-top-navigation {
+    padding-top: 32px;
+    padding-bottom: 14px;
+}}
+
+.mobile_menu_bar:before {
+
+    color: #ffffff;
+
+}
+.et_mobile_menu {
+    background: #96999C;
+}
+.et_mobile_menu li a {
+    border-bottom: 0px;
+    color: #fff;
+    padding: 19px 5%;
+    display: block;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Roboto',sans-serif;
+    text-transform: uppercase;
+}
+@media only screen and (max-width: 1650px) {
+    #top-menu a {
+        padding-right: 7em;
+    }
+	.gq_overlay_text .text {
+        font-size: 14px  !important;
+		line-height: 19px  !important;
+    }
+  }
+  @media only screen and (max-width: 1270px) {
+    #top-menu a {
+        padding-right: 3em;
+    }
+    .et_pb_text_2 {
+        padding-top: 78px !important;
+    }
+    .et_pb_text_8 {
+        margin-top: -23px !important;
+    }
+    .et_pb_text_7 {
+        margin-top: -23px !important;
+    }
+    .et_pb_text_4 {
+        margin-top: -23px !important;
+    }
+    .et_pb_text_5 {
+        margin-top: -23px !important;
+    }
+    .gq_overlay_text .text {
+        font-size: 13px  !important;
+		line-height: 17px  !important;
+    }
+  }
